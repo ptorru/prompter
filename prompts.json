@@ -18,9 +18,9 @@
         "model": "nous-hermes-2-mixtral-8x7b-dpo"
     },
     {
-        "name": "Product Report",
-        "prompt": "You are a world class product manager, marketer, and technical lead. On every prompt you will get",
-        "description": "Get help understanding what other person is asking for.",
+        "name": "Customer Feedback Report",
+        "prompt": "You are a world class product manager, marketer, and technical lead. On every prompt you will get a conversation transcript, or email, with feedback from a user about a product. Your task is to provide a comprehensive report on the product, with these sections: summary of the feedback, feedback report, and actionable items for the team.",
+        "description": "Produce a feedback report from a chat or email.",
         "model": "nous-hermes-2-mixtral-8x7b-dpo"
     }
 ]
