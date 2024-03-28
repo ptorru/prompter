@@ -59,7 +59,7 @@ with st.sidebar:
 
 
 st.title("💬 Prompter")
-st.caption("🚀 A streamlit chatbot powered by OpenAI LLM")
+st.caption("🚀 A prompt tool powered by OctoAI LLMs")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
         {
@@ -80,7 +80,7 @@ for msg in st.session_state.messages:
 
 if prompt := st.chat_input():
     if not st.session_state.api_key:
-        st.info("Please add your OpenAI API key to continue.")
+        st.info("Please add your OctoAI API key to continue.")
         st.stop()
 
     client = OpenAI(
